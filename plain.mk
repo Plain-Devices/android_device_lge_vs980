@@ -3,17 +3,18 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/plain/config/common.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/plain/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/vs980/vs980.mk)
+$(call inherit-product, vendor/plain/config/telephony.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vs980
-PRODUCT_NAME := cm_vs980
+PRODUCT_NAME := plain_vs980
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-VS980
 PRODUCT_MANUFACTURER := lge
