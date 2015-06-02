@@ -18,9 +18,6 @@
      for different hardware or product builds. -->
 <resources>
 
-    <!-- Show APN Settings for some CDMA carriers -->
-    <bool name="config_show_apn_setting_cdma">true</bool>
-
     <!-- Flag indicating whether the Phone app should ignore
         EVENT_SIM_NETWORK_LOCKED events from the Sim.  If true, this will
         prevent the IccNetworkDepersonalizationPanel from being shown,
