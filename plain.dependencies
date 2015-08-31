@@ -1,16 +1,20 @@
 [
   {
-    "repository":  "android_device_lge_g2-common",
-    "target_path": "device/lge/g2-common"
-  },
-  {
-    "repository":	"android_kernel_lge_msm8974-caf",
-    "target_path":	"kernel/lge/msm8974-caf"
+    "remote": "gh",
+    "repository": "DesolationRom-Devices/android_device_lge_g2-common",
+    "target_path": "device/lge/g2-common",
+    "revision": "lp5.1"
   },
   {
     "remote": "gh",
-    "repository": "TheMuppets/proprietary_vendor_lge",
+    "repository": "DesolationRom-Devices/android_kernel_lge_msm8974-caf",
+    "target_path":	"kernel/lge/msm8974-caf",
+    "revision": "lp5.1"
+  },
+  {
+    "remote": "gh",
+    "repository": "DesolationRom-Devices/android_platform_vendor_lge",
     "target_path": "vendor/lge",
-    "revision": "cm-12.1_g2caf"
+    "revision": "lp5.1"
   }
 ]
